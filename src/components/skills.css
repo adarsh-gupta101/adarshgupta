@@ -1,6 +1,9 @@
 .skills {
   background-color: rgb(0, 0, 0);
+  width: 70%;
   margin: auto;
+
+  align-items: center;
 }
 .skill111 {
   color: black;
@@ -20,6 +23,7 @@
 
 .skilldes > h3 {
   color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 .skilldes:hover {
   box-shadow: 0 0 0 0;
@@ -27,9 +31,9 @@
 .skilldes {
   background-color: white;
   padding: 5%;
-  color: rgb(255, 0, 0);
+  color: rgb(191 13 154);
 
-  border-radius: 10%;
+  border-radius: 1%;
   margin: 10%;
   box-shadow: 5px 8px 22px 4px #959595;
 }
@@ -37,7 +41,6 @@
   color: white;
 }
 .containers {
-  width: 75%;
   background-color: white;
   height: 25px;
   position: relative;
@@ -49,6 +52,11 @@
   background-color: rgb(248, 2, 2);
   position: absolute;
   border-radius: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .containers {
+    height: 15px;
+  }
 }
 .Html {
   width: 75%;
