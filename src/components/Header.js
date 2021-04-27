@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Link, BrowserRouter as Router, history } from "react-router-dom";
 import "./Header.css";
-import BuildTwoToneIcon from "@material-ui/icons/BuildTwoTone";
+import MenuIcon from "@material-ui/icons/Menu";
 
 const Header = () => {
   const [show, setshoe] = useState(false);
@@ -15,7 +15,7 @@ const Header = () => {
     <div className="header" style={{}}>
       <div className={` ${show && "container"}`}>
         <button className="icon" onClick={funv}>
-          <BuildTwoToneIcon></BuildTwoToneIcon>{" "}
+          <MenuIcon></MenuIcon>{" "}
         </button>
         <div ref={headerref} className="header__link">
           {show && (

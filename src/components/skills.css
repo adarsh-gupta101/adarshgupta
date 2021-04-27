@@ -1,7 +1,37 @@
 .skills {
   background-color: rgb(0, 0, 0);
-  margin-left: 15%;
-  margin-top: 15%;
+  margin: auto;
+}
+.skill111 {
+  color: black;
+
+  display: flex;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .skill111 {
+    display: block;
+    margin-top: 25%;
+  }
+  .skilldes {
+    padding: 10%;
+  }
+}
+
+.skilldes > h3 {
+  color: rgb(0, 0, 0);
+}
+.skilldes:hover {
+  box-shadow: 0 0 0 0;
+}
+.skilldes {
+  background-color: white;
+  padding: 5%;
+  color: rgb(255, 0, 0);
+
+  border-radius: 10%;
+  margin: 10%;
+  box-shadow: 5px 8px 22px 4px #959595;
 }
 .skills > p {
   color: white;

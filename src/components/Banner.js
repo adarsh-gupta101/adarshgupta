@@ -1,16 +1,25 @@
 import React from "react";
 import "./banner.css";
-import banner from "./unsplash.jpg";
-import banner2 from "./unsplash2.jpg";
+import uns from "./unsplash.jpg";
+
+import nann2 from "./nann2.mp4";
 function Banner() {
   return (
     <div className="banner">
-      <img className="banner__image" src={banner} alt="" />
-      <img className="banner_image_mobile" src={banner2} alt="" />
+      <img src={uns} className="banner__image" alt=""></img>
+      <video
+        className="banner__video"
+        autoplay=""
+        loop={true}
+        controls={false}
+        muted
+      >
+        <source src={nann2} type="video/mp4" />
+      </video>
       <div className="banner_introduction">
         {" "}
-        Hello.<br></br>I'm <span className="banner__name">Adarsh Gupta</span>
-        .<br />
+        Hello.<br></br>I'm <span className="banner__name">Adarsh Gupta.</span>
+        <br />
         <div className="banner__D">
           <span className="banner__D_D">D</span>
           <div className="banner__D_names">
