@@ -2,13 +2,13 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div style={{ height: "100vh", overflow: "scroll" }}>
+    <div style={{ height: "100vh", width: "100vw", overflow: "scroll" }}>
       <div className="about">
-        <div className="top">
-          <h1>I </h1> <h1>Design </h1> <h1>And </h1>
-          <h1>Build </h1>
-          <h1>Digital </h1>
-          <h1>Stuffs </h1>
+        <div className="top" style={{ "font-variant": "petite-caps" }}>
+          <h1>I </h1> <h1>DESIGN </h1> <h1>AND </h1>
+          <h1>BUILD </h1>
+          <h1>DIGITAL </h1>
+          <h1>STUFFS </h1>
         </div>
         <div className="aboutme">
           <h2>
@@ -43,16 +43,15 @@ const About = () => {
               <p>Linkedin</p>
             </a>
           </div>
-          <h3 className="" style={{ margin: "5px" }}>
-            Iam also a Developer,crypto-believer,Freelancer,Music lover,Space
-            lover,Animal lover,advisor and many more
-          </h3>
+          <p className="P_text" style={{}}>
+            I'm a Developer,crypto-believer,Freelancer,Space lover and curious
+            about almost everything.
+          </p>
           <p className="P_text">
             I want to define myself by the work I love to do.Skill's can be
-            developed, Character can be build & not everything is easy . I love
+            developed, Character can be built & not everything is easy . I love
             to learn new stuffs and also loves to teach
           </p>
-
           <p className="P_text">
             I believe Humanity will end in another planet and not in our
             Earth.Coding and Space are my favourite things.{" "}
@@ -64,13 +63,13 @@ const About = () => {
           <p className="P_text">
             The First step is always the difficult one and it took one year to
             understand that coding is just pattern recognising and not learning
-            each and every syntax
+            each and every syntax.
           </p>
           <p className="P_text">
             I'm a BTech Student,But a certificate does not define the real "Me"{" "}
           </p>
           <p className="P_text">
-            Curiosity is the reason how I reach here & Iam stepping out of
+            Curiosity is the reason how I reach here & I'm stepping out of
             comfort zone.Alas,
             <br /> <i>A glass is Never Empty</i>
           </p>

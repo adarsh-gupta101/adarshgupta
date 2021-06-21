@@ -18,8 +18,7 @@ const Skills = () => {
           <h3>Backend</h3>
           <p>
             Talking about backend I have experience in <i>EXPRESS_JS,NODE_JS</i>
-            .I also have done few projects like video_chat application using
-            socket.io
+            .I have done projects using socket.io Pusher stripe commerceJs
           </p>
         </div>
       </div>

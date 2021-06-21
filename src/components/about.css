@@ -27,10 +27,10 @@
   max-width: 525px;
 }
 .about p {
-  width: fit-content;
+  width: 100%;
 
-  background-color: rgb(0, 248, 54);
-  border-radius: 15px;
+  background-color: #735e1b;
+  border-radius: 5px;
   padding: 15px;
   margin-bottom: 15px;
   font-size: large;
@@ -39,10 +39,16 @@
   text-align: center;
   width: 600px;
   margin-left: 20%;
+  margin: auto;
 }
 .socialmedia {
   display: flex;
 }
+.socialmediaa {
+  display: block;
+  margin: 15px;
+}
+
 .socialmedia > a {
   text-decoration: none;
   color: blue;
@@ -60,19 +66,19 @@
     display: none;
   }
   .P_text {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 5px;
   }
   .aboutme,
   .about p {
     margin-left: 0%;
-    width: 98vw;
-    margin: 5px;
+    width: 84vw;
+    margin: auto;
+    margin-top: 5px;
   }
   .top > h1 {
     color: rgb(212, 212, 212);
     font-size: 15vh;
-    margin-top: ;
   }
   .top {
     margin-top: 65px;
@@ -117,4 +123,11 @@
     width: 100%;
     background-color: blue;
   }
+}
+.triangle {
+  border-style: solid;
+  border-color: #735e1b transparent transparent transparent;
+  border-width: 34px 47vw 15px 0px;
+  height: 15px;
+  margin-top: -15px;
 }
