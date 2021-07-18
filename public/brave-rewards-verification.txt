@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: adarshgupta.herokuapp.com
+Token: bf308e6d7844bb838fbceb98f40ed9f478cda6ff38f72360a4203d7712d23289
