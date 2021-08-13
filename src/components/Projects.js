@@ -1,15 +1,15 @@
-import { green } from "@material-ui/core/colors";
+
 import "./project.css";
-import { Link } from "react-router-dom";
+
 
 const Projects = ({ description, title, source, image, repo }) => {
   var img = require(`./assets/${image}.jpg`);
-  var image = img.default;
+  var image2 = img.default;
 
   return (
     <>
       <div className="maincont">
-        <img className="project__image" src={image} />
+        <img className="project__image" src={image2} alt="projectpics" />
         <div className="red">
           <h1 className="p__title">{title}</h1>
           <p className="p__Desc">{description}</p>
