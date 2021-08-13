@@ -1,8 +1,6 @@
 import React from "react";
 import "./work.css";
-import project from "./project1.jpg";
 import Projects from "./Projects";
-import GitHubIcon from "@material-ui/icons/GitHub";
 const Work = () => {
   return (
     <div style={{ height: "100vh", overflow: "scroll" }}>
