@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link, BrowserRouter as Router, history } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 
